@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 import sys
 try:
@@ -2793,31 +2793,7 @@ def init_SKindex(msg):
     "[B][COLOR white]Filmes e Séries - [/COLOR] 4K 1 [/B]",
     "[B][COLOR white]Filmes e Séries - [/COLOR] FHD 2 [/B]",
     "[B][COLOR white]Filmes e Séries - [/COLOR] HD 3 [/B]",
-    "[B][COLOR white]Filmes e Séries - [/COLOR] SD [/B]"])    
-      
-    if link == 0:
-     if xbmc . getCondVisibility ( 'system.platform.android' ) :
-         xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://EXEMPLO' ) )
-     else:
-        ost = webbrowser . open ( 'https://EXEMPLO' )
- 
-    if link == 1:
-     if xbmc . getCondVisibility ( 'system.platform.android' ) :
-         xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://EXEMPLO' ) )
-     else:
-        ost = webbrowser . open ( 'https://' )
-    
-    if link == 2:
-     if xbmc . getCondVisibility ( 'system.platform.android' ) :
-         ost = xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://EXEMPLO' ) )
-     else:
-        webbrowser . open ( 'https://EXEMPLO' ) 
-
-    if link == 4:
-     xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
-     xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-
+    "[B][COLOR white]Filmes e Séries - [/COLOR] SD [/B]"])
 def mensagem(msg):
    status_mensagem2 = addon.getSetting('mensagem2')
    if status_mensagem2 == 'true':     
