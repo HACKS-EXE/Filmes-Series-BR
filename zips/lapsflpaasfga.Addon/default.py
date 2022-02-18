@@ -580,7 +580,7 @@ def getData(url,fanart):
                     #resolver_final = resolver(stream_url, channel_name, thumbnail)
                     if uhdtv == 'false' and re.search("4K",channel_name):
                         pass
-                    elif fhdtv == 'true' and re.search("FHD",channel_name):
+                    elif fhdtv == 'false' and re.search("FHD",channel_name):
                         pass
                     elif hdtv == 'false' and re.search("HD",channel_name) and not re.search("FHD",channel_name):
                         pass
