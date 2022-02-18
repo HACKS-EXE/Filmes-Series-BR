@@ -2796,22 +2796,16 @@ def init_SKindex(msg):
     "[B][COLOR white]Filmes e Séries - [/COLOR] SD [/B]"])    
       
     if link == 0:
-     if xbmc . getCondVisibility ( 'system.platform.android' ) :
-         xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://EXEMPLO' ) )
-     else:
-        ost = webbrowser . open ( 'https://EXEMPLO' )
+     xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
+     xbmcplugin.endOfDirectory(int(sys.argv[1]))
  
     if link == 1:
-     if xbmc . getCondVisibility ( 'system.platform.android' ) :
-         xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://EXEMPLO' ) )
-     else:
-        ost = webbrowser . open ( 'https://' )
+     xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
+     xbmcplugin.endOfDirectory(int(sys.argv[1]))
     
     if link == 2:
-     if xbmc . getCondVisibility ( 'system.platform.android' ) :
-         ost = xbmc . executebuiltin ( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'https://EXEMPLO' ) )
-     else:
-        webbrowser . open ( 'https://EXEMPLO' ) 
+     xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
+     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 
     if link == 4:
      xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
