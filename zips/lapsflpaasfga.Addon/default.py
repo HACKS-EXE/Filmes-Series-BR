@@ -2787,12 +2787,12 @@ def info_vip():
 			
 def init_SKindex(msg):
    status_mensagem1 = addon.getSetting('mensagem1')
-   if status_mensagem1 == 'true':
+   if status_mensagem1 == 'false':
     dialog = xbmcgui.Dialog()
     link = dialog.select("[B]BEM-VINDOS AO [COLOR white]lapsflpaasfga[/COLOR][/B]", [
-    "[B][COLOR white]Filmes e Séries - [/COLOR] 4K 1 [/B]",
-    "[B][COLOR white]Filmes e Séries - [/COLOR] FHD 2 [/B]",
-    "[B][COLOR white]Filmes e Séries - [/COLOR] HD 3 [/B]",
+    "[B][COLOR white]Filmes e Séries - [/COLOR] 4K  [/B]",
+    "[B][COLOR white]Filmes e Séries - [/COLOR] FHD  [/B]",
+    "[B][COLOR white]Filmes e Séries - [/COLOR] HD  [/B]",
     "[B][COLOR white]Filmes e Séries - [/COLOR] SD [/B]"])    
       
     if link == 0:
