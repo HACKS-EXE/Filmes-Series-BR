@@ -2784,33 +2784,6 @@ def info_vip():
             except:
                 pass       
 
-			
-def init_SKindex(msg):
-   status_mensagem1 = addon.getSetting('mensagem1')
-   if status_mensagem1 == 'false':
-    dialog = xbmcgui.Dialog()
-    link = dialog.select("[B]BEM-VINDOS AO [COLOR white]lapsflpaasfga[/COLOR][/B]", [
-    "[B][COLOR white]Filmes e Séries - [/COLOR] 4K  [/B]",
-    "[B][COLOR white]Filmes e Séries - [/COLOR] FHD  [/B]",
-    "[B][COLOR white]Filmes e Séries - [/COLOR] HD  [/B]",
-    "[B][COLOR white]Filmes e Séries - [/COLOR] SD [/B]"])    
-      
-    if link == 0:
-     xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
-     xbmcplugin.endOfDirectory(int(sys.argv[1]))
- 
-    if link == 1:
-     xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
-     xbmcplugin.endOfDirectory(int(sys.argv[1]))
-    
-    if link == 2:
-     xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
-     xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
-    if link == 4:
-     xbmc.executebuiltin("XBMC.Container.Refresh('close()')")
-     xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
 
 def mensagem(msg):
    status_mensagem2 = addon.getSetting('mensagem2')
