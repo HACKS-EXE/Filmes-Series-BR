@@ -2,24 +2,24 @@
 
 <channel>
 <name>[B][COLOR white]TV[/COLOR][/B]</name>
-<thumbnail>http://plutonium-brasil.ddns.net:100/Repositorio-para-Kodi/tv-regular-24.png</thumbnail>
-<externallink>http://plutonium-brasil.ddns.net:100/Repositorio-para-Kodi/TV.txt</externallink>
+<thumbnail>https://zaquiles.servehttp.com/Repositorio-para-Kodi/tv-regular-24.png</thumbnail>
+<externallink>https://zaquiles.servehttp.com/Repositorio-para-Kodi/TV.txt</externallink>
 <fanart>https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2021/01/28142917/tv.jpg?fit=728%2C432&ssl=1</fanart>
 <info>Algo como você nunca viu</info>
 </channel>
 
 <channel>
 <name>[B][COLOR white]FILMES[/COLOR][/B]</name>
-<thumbnail>http://plutonium-brasil.ddns.net:100/Repositorio-para-Kodi/movie-regular-24.png</thumbnail>
-<externallink>http://plutonium-brasil.ddns.net:100/Repositorio-para-Kodi/Filmes.txt</externallink>
+<thumbnail>https://zaquiles.servehttp.com/Repositorio-para-Kodi/movie-regular-24.png</thumbnail>
+<externallink>https://zaquiles.servehttp.com/Repositorio-para-Kodi/Filmes.txt</externallink>
 <fanart>https://assets.b9.com.br/wp-content/uploads/2019/05/netflix-library.jpg</fanart>
 <info>Sua Netflix da vida</info>
 </channel>
 
 <channel>
 <name>[B][COLOR white]SERIES[/COLOR][/B]</name>
-<thumbnail>http://plutonium-brasil.ddns.net:100/Repositorio-para-Kodi/videos-solid-24.png</thumbnail>
-<externallink>http://plutonium-brasil.ddns.net:100/Repositorio-para-Kodi/Series.txt</externallink>
+<thumbnail>https://zaquiles.servehttp.com/Repositorio-para-Kodi/videos-solid-24.png</thumbnail>
+<externallink>https://zaquiles.servehttp.com/Repositorio-para-Kodi/Series.txt</externallink>
 <fanart>https://i2.wp.com/manualdosgames.com/wp-content/uploads/2021/07/Netflix-1170x720.jpg</fanart>
 <info>Sua Netflix da vida</info>
 </channel>
