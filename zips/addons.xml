@@ -25,9 +25,9 @@
     <assets>
 	<icon>Zaquiles.gif</icon>
     <fanart>Zaquiles.gif</fanart>
-    <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
-    <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
-    <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
+    <screenshot>Zaquiles.gif</screenshot>
+    <screenshot>Zaquiles.gif</screenshot>
+    <screenshot>Zaquiles.gif</screenshot>
 
     </assets>
 </extension>
