@@ -1,4 +1,4 @@
-<addons>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="Zaquiles.Addon" name="Filmes e Séries BR online" version="1.0" provider-name="Zaquiles"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -20,16 +20,15 @@
     <summary lang="pt-br">Um projeto Addon Beta</summary>
     <description lang="pt-br">Sem isso não Funciona os Filmes e Séries</description>
      <disclaimer lang="pt-br">Entre no nosso discord https://discord.io/-MistorGamex </disclaimer>
-	 	<news>Primeira versão 1.0</news>
+	 	<news>Versão 1.0</news>
 	<platform>all</platform>
     <assets>
 	<icon>Zaquiles.gif</icon>
     <fanart>Zaquiles.gif</fanart>
-    <screenshot>Zaquiles.gif</screenshot>
-    <screenshot>Zaquiles.gif</screenshot>
-    <screenshot>Zaquiles.gif</screenshot>
+    <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
+    <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
+    <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
 
     </assets>
 </extension>
 </addon>
-</addons>
