@@ -1,8 +1,0 @@
-<item>
-<title>[B]NOME DO CANAL[/B]</title>
-<link>link DO ARQUIVO .m3u8/TS/F4MTESTER</link>
-<thumbnail>https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2021/01/28142917/tv.jpg</thumbnail>
-<fanart>https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2021/01/28142917/tv.jpg</fanart>
-<info>Diversos canais para você.</info>
-</item>
-
