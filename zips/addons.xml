@@ -23,8 +23,8 @@
 	 	<news>Primeira versão 1.0</news>
 	<platform>all</platform>
     <assets>
-	<icon>Zaquiles</icon>
-    <fanart>Zaquiles</fanart>
+	<icon>Zaquiles.gif</icon>
+    <fanart>Zaquiles.gif</fanart>
     <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
     <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
     <screenshot>resources/screenshots/Zaquiles.gif</screenshot>
