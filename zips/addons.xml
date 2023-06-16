@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="Zaquiles.Addon-1.0" name="Filmes e Séries BR online" version="1.0" provider-name="Zaquiles"> 
+<addon id="Zaquiles" name="Filmes e Séries BR online" version="1.0" provider-name="Zaquiles"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
